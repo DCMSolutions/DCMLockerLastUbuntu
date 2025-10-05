@@ -549,11 +549,11 @@
       "url": "KioskApp\/_framework\/System.Linq.Dynamic.Core.dll"
     },
     {
-      "hash": "sha256-XwEGw80PpCjWZlCFG201uCq9VO38O1Mo5gVJOwn9+fo=",
+      "hash": "sha256-zIfMiBmCbt\/CeSBKc3XHcGAb0y7c82aRWUGcZnlSh7o=",
       "url": "KioskApp\/_framework\/DCMLocker.Shared.dll"
     },
     {
-      "hash": "sha256-98btLqGuECCD9T3m2uLL2LWYxXYMQ9wo4h0P6Pu\/0d8=",
+      "hash": "sha256-CEuPIirlg1SMWfHeIZXFLm0r04bPghBODXrC9M2oVg0=",
       "url": "KioskApp\/_framework\/DCMLocker.Kiosk.dll"
     },
     {
@@ -805,7 +805,7 @@
       "url": "KioskApp\/_framework\/System.Private.CoreLib.dll"
     },
     {
-      "hash": "sha256-dVBRxaeSrtf++FLU2mLmEhLQG7mSvrWFoj4widdm1AY=",
+      "hash": "sha256-tPvajYmpFzoqpnCwNjrZqUQ\/fzlt5ZLGHS17rTwU84A=",
       "url": "KioskApp\/_framework\/blazor.boot.json"
     },
     {
@@ -813,5 +813,5 @@
       "url": "KioskApp\/_framework\/blazor.webassembly.js"
     }
   ],
-  "version": "MH8JDpu3"
+  "version": "RpMDf1Xa"
 };
