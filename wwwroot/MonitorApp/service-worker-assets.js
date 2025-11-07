@@ -197,11 +197,11 @@
       "url": "MonitorApp\/_framework\/System.IO.Pipelines.dll"
     },
     {
-      "hash": "sha256-S0ghG\/d7cL6dswezfnKetCFMraoQ2J0Tkcik2QmGdVs=",
+      "hash": "sha256-hoKQeb+wKqYEhKXNQWtKWSz\/peevaR+Xv4iSAGuLQAM=",
       "url": "MonitorApp\/_framework\/DCMLocker.Shared.dll"
     },
     {
-      "hash": "sha256-jbomqCVsdJJUDu\/z+Z4hRxPXSbNmv8ggeTOLWHkBAmo=",
+      "hash": "sha256-e8mOfDXk6fTEBrWdSKKeaiZPeX5HqRMAZIbP0Y7gyZU=",
       "url": "MonitorApp\/_framework\/DCMLocker.Monitor.dll"
     },
     {
@@ -329,7 +329,7 @@
       "url": "MonitorApp\/_framework\/System.Private.CoreLib.dll"
     },
     {
-      "hash": "sha256-0gT0wmdQPh2hKpmC7vl6R\/yZVS6W1vM9UGsgsmt6kMQ=",
+      "hash": "sha256-mrQ26GcDw7zwweF8DsliMnsl\/R2hwK1MUbxp\/QSeqhc=",
       "url": "MonitorApp\/_framework\/blazor.boot.json"
     },
     {
@@ -337,5 +337,5 @@
       "url": "MonitorApp\/_framework\/blazor.webassembly.js"
     }
   ],
-  "version": "KbOBM0V8"
+  "version": "sAVeprNM"
 };
