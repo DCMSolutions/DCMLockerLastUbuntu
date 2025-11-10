@@ -23,6 +23,33 @@ html[b-09bnahnav3], body[b-09bnahnav3] {
     min-height: 100vh;
 }
 
+/* Botón "Cancelar" unificado (discreto) */
+.btn-cancel[b-09bnahnav3] {
+    background: transparent;
+    border: 2px solid #6c757d;
+    color: #6c757d;
+    padding: .6rem 1.1rem;
+    font-size: clamp(1rem, 2.4vh, 1.4rem);
+    border-radius: .5rem;
+    transition: transform .08s, opacity .08s;
+}
+
+    .btn-cancel:hover[b-09bnahnav3] {
+        opacity: .9;
+    }
+
+    .btn-cancel:active[b-09bnahnav3] {
+        transform: scale(.98);
+    }
+
+/* Subtítulo en pantallas de resultado (más chico que el principal) */
+.result-sub[b-09bnahnav3] {
+    text-align: center;
+    color: #6c757d;
+    margin-top: .5rem;
+    font-size: clamp(1.2rem, 2.6vh, 2rem);
+}
+
 .action-card[b-09bnahnav3], .asset-card[b-09bnahnav3], .state-card[b-09bnahnav3] {
     min-height: 24vh;
     border-width: 2px;

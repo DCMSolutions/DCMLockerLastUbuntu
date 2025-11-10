@@ -77,8 +77,12 @@
       "url": "KioskApp\/icon-512.png"
     },
     {
-      "hash": "sha256-DasNbtVfPScgHqK1WAHJqNVs7aJPES9qzf8Dz\/qwvlo=",
+      "hash": "sha256-ui\/QSA\/CAcDxyCsy1Z\/ZRsdz\/LLoRd1VTZL0o1KIC4A=",
       "url": "KioskApp\/img\/1-rfid-hand.png"
+    },
+    {
+      "hash": "sha256-R4StQBrO\/7DVOcABcaz55Ttsrl4DvF74KVYABPGYe4M=",
+      "url": "KioskApp\/img\/7-rfid-tarjeta.png"
     },
     {
       "hash": "sha256-uGbNISRXZMZ0oTR3zXImlZuQjGfNoFhcdq4UrrvR4OI=",
@@ -145,7 +149,7 @@
       "url": "KioskApp\/_framework\/dotnet.5.0.17.js"
     },
     {
-      "hash": "sha256-ibZiZhXJos9nwhItAdtIg0q6aB6kc\/upI0H1eNuMkDw=",
+      "hash": "sha256-\/jYbZ80hG1cKSVX4gq6LzlSIOm0kb+5ReTfklYxIM98=",
       "url": "KioskApp\/KioskApp\/DCMLocker.Kiosk.styles.css"
     },
     {
@@ -553,11 +557,11 @@
       "url": "KioskApp\/_framework\/System.Linq.Dynamic.Core.dll"
     },
     {
-      "hash": "sha256-PnTUyTm3yyNNZQ6oZIkmJy5YsZP\/UFkjx\/a9lAiyZNo=",
+      "hash": "sha256-lU5T6BIcGbzE6iVAP\/yWD9IUNKMsUlWwPEvNPzdSi3w=",
       "url": "KioskApp\/_framework\/DCMLocker.Shared.dll"
     },
     {
-      "hash": "sha256-cKHp0MLn\/EPMJDVCW6w84c8AffpvmXuJBh9Xjco7GXs=",
+      "hash": "sha256-ZOgu1C6XCAHo\/UMIKHwgxI\/4pzYm\/OuGLc1JoaM0F7c=",
       "url": "KioskApp\/_framework\/DCMLocker.Kiosk.dll"
     },
     {
@@ -809,7 +813,7 @@
       "url": "KioskApp\/_framework\/System.Private.CoreLib.dll"
     },
     {
-      "hash": "sha256-KGeyew1bWylHBFvULSkOwvkYnWCP2V2+Q1Fsm7UGrrw=",
+      "hash": "sha256-qO4VRQUQqbGWsGoS7K\/Sq3UIaVsHyV\/s178tsJNVIck=",
       "url": "KioskApp\/_framework\/blazor.boot.json"
     },
     {
@@ -817,5 +821,5 @@
       "url": "KioskApp\/_framework\/blazor.webassembly.js"
     }
   ],
-  "version": "5fAHeMCl"
+  "version": "+RiTlPGd"
 };
