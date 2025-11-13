@@ -1,8 +1,5 @@
 /* KioskApp/Pages/Assets/Assets.razor.rz.scp.css */
-html[b-09bnahnav3], body[b-09bnahnav3] {
-    height: 100%;
-    overflow: hidden;
-}
+
 
 .kiosk-full[b-09bnahnav3] {
     height: 100vh;
@@ -228,8 +225,10 @@ html[b-09bnahnav3], body[b-09bnahnav3] {
 }
 
     .scroll-card .card-body[b-09bnahnav3] {
-        overflow: auto;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
     }
+
 
 .asset-card.compact[b-09bnahnav3] {
     min-height: 16vh;

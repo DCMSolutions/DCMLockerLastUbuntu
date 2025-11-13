@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-l8ZRBDurduRjMknFcnRUIa1V5Y5\/jJ6ExVeVFJmDFjQ=",
+      "hash": "sha256-MYPx0HtJhHV8MuZPa\/hfeYzoLB0GdAo5BvewYZ0UTfo=",
       "url": "KioskApp\/css\/app.css"
     },
     {
@@ -101,7 +101,7 @@
       "url": "KioskApp\/img\/tick.png"
     },
     {
-      "hash": "sha256-t5\/TAHba4qKVgzj1Az3mp07YXqO2PT2iQ5AP4s+WACo=",
+      "hash": "sha256-fJl0KJrgy7LLEGR29YF4zC7464gF8P8jDdqTfclSND8=",
       "url": "KioskApp\/index.html"
     },
     {
@@ -149,7 +149,7 @@
       "url": "KioskApp\/_framework\/dotnet.5.0.17.js"
     },
     {
-      "hash": "sha256-FbHsoR4qQ+76y03ieparmfl5AHDMSaYesu3UBXInYmQ=",
+      "hash": "sha256-PI6KeTp8TMqaT2CFUwqN3OXGfJTrJzyvczhjztdUAQU=",
       "url": "KioskApp\/KioskApp\/DCMLocker.Kiosk.styles.css"
     },
     {
@@ -557,11 +557,11 @@
       "url": "KioskApp\/_framework\/System.Linq.Dynamic.Core.dll"
     },
     {
-      "hash": "sha256-pYNFHny2HYSyEsAr8VXmLqxGF7yKdMY9dAPhod+G++I=",
+      "hash": "sha256-U30hnTvr96998Ggy7ZDLu+MTpe5EHqGkuEsJ6Wre4gw=",
       "url": "KioskApp\/_framework\/DCMLocker.Shared.dll"
     },
     {
-      "hash": "sha256-4SqGjHaovT4HZtwxOAFoCjOywM3yrR7YPJtUK5PZ5ss=",
+      "hash": "sha256-DBKSe7Qw\/C0xhIFkhkQDfqwe3t+hwhNV85WfFrj6TbI=",
       "url": "KioskApp\/_framework\/DCMLocker.Kiosk.dll"
     },
     {
@@ -813,7 +813,7 @@
       "url": "KioskApp\/_framework\/System.Private.CoreLib.dll"
     },
     {
-      "hash": "sha256-aLgtWW4Uv8ZXdWGqP4WbehnB8wjvSzpDeIqH+qO2OTs=",
+      "hash": "sha256-5ZejOvyOmfS2O3aIh1OG95wbLrLXksiL0Rtb7+9Qkzk=",
       "url": "KioskApp\/_framework\/blazor.boot.json"
     },
     {
@@ -821,5 +821,5 @@
       "url": "KioskApp\/_framework\/blazor.webassembly.js"
     }
   ],
-  "version": "jDAW6qrC"
+  "version": "hxOG2ZVy"
 };
