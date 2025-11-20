@@ -308,6 +308,20 @@
     border: none;
     cursor: pointer;
 }
+
+.puertas-screen .puertas-list[b-09bnahnav3] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.puerta-chip[b-09bnahnav3] {
+    padding: 0.4rem 0.8rem;
+    border-radius: 999px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+}
 /* KioskApp/Shared/MainLayout.razor.rz.scp.css */
 .page[b-wnf16cph5u] {
     position: relative;
