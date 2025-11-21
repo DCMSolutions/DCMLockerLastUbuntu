@@ -41,8 +41,8 @@
       "System.Drawing.Common.dll": "sha256-j1zHJrKyPRg7Is5NbD1gh484REf1TLe3HaJQ+tvNn18=",
       "System.IO.Pipelines.dll": "sha256-3ET+mpR7F058YRj9YaLHOVXBqOW6iUxtIpeiKPYw4PA=",
       "System.Linq.Dynamic.Core.dll": "sha256-61yf10xm1mazS+QihHv\/qhgTAXV9TJSYFM9yNt07948=",
-      "DCMLocker.Shared.dll": "sha256-iueU8ZHW7cqhzAU79EuBwSdNoelHg6+qwBCfjKGh4cI=",
-      "DCMLocker.Kiosk.dll": "sha256-ct2FBJZcOq\/2vbvpj2H3hyLtQtBD60mcv+SKhR1yrjU=",
+      "DCMLocker.Shared.dll": "sha256-V1eH9wolb6gZbEkQA\/g+\/YqNGdnHGs5hmYeB\/7Nvo5w=",
+      "DCMLocker.Kiosk.dll": "sha256-ZsXVS+UxGbWkqu7dTJlwGc+gYKTI0hNou0a9WvIB96Y=",
       "Microsoft.CSharp.dll": "sha256-SkvWk7tNCgLDCtrowy7rf7M\/PpG3kmZt5GMITy8WZJg=",
       "Microsoft.Win32.Primitives.dll": "sha256-qTpPJ3sHJfrVRv3BV+Pu3E+FDMPWaR4MjuhtwCda0p4=",
       "System.Buffers.dll": "sha256-raNavWaGjI1ip1bByb\/H80GFWPgcd7ANFpgKRDyrbYA=",
@@ -104,7 +104,7 @@
       "System.Xml.XDocument.dll": "sha256-JwEdMAJ5Er8I0w+IgmOfzbeS9dZUkSoqdcmBcQ1D++8=",
       "System.dll": "sha256-tBjCnflZoeaXTOycTulGnmk2BLfER715HM3c2KwVDkA=",
       "netstandard.dll": "sha256-aVdp0Ww7U9T6P1Mbu0RcfQFR55lTwrtI375+AGSEZhU=",
-      "System.Private.CoreLib.dll": "sha256-MH\/7oCEqgObYwIVEjOqO3yJKNMSobi0XkMD3qgGZVrY="
+      "System.Private.CoreLib.dll": "sha256-GDErDr5KqS5o3tM8XsQkMkaz+k7nhhCAfTqO\/lVP9TY="
     },
     "extensions": null,
     "lazyAssembly": null,
