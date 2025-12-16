@@ -94,7 +94,6 @@
         border-color: #007bff;
     }
 
-/* Admin trigger invisible */
 .hidden-admin-trigger[b-09bnahnav3] {
     position: fixed;
     top: 0;
@@ -107,6 +106,7 @@
     z-index: 100;
     pointer-events: auto;
 }
+
 
 /* PIN */
 .pin-dots[b-09bnahnav3] {
@@ -297,18 +297,6 @@
     font-weight: 500;
 }
 
-/* ya tenés .hidden-admin-trigger; asegurate que esté en la esquina sup. izq. */
-.hidden-admin-trigger[b-09bnahnav3] {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 80px;
-    height: 80px;
-    background: transparent;
-    border: none;
-    cursor: pointer;
-}
-
 .puertas-screen .puertas-list[b-09bnahnav3] {
     display: flex;
     flex-wrap: wrap;
@@ -317,6 +305,319 @@
 }
 
 .puerta-chip[b-09bnahnav3] {
+    padding: 0.4rem 0.8rem;
+    border-radius: 999px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+}
+/* KioskApp/Pages/Assets/AssetsRapido.razor.rz.scp.css */
+
+
+.kiosk-full[b-9xxrvzs06b] {
+    height: 100vh;
+}
+
+/* --- Layouts base --- */
+.kiosk-up[b-9xxrvzs06b] {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 6vh;
+    min-height: 100vh; /* asegura área para scroller */
+}
+
+.kiosk-center[b-9xxrvzs06b] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Botón "Cancelar" unificado (discreto) */
+.btn-cancel[b-9xxrvzs06b] {
+    background: transparent;
+    border: 2px solid #6c757d;
+    color: #6c757d;
+    padding: .6rem 1.1rem;
+    font-size: clamp(1rem, 2.4vh, 1.4rem);
+    border-radius: .5rem;
+    transition: transform .08s, opacity .08s;
+}
+
+    .btn-cancel:hover[b-9xxrvzs06b] {
+        opacity: .9;
+    }
+
+    .btn-cancel:active[b-9xxrvzs06b] {
+        transform: scale(.98);
+    }
+
+/* Subtítulo en pantallas de resultado (más chico que el principal) */
+.result-sub[b-9xxrvzs06b] {
+    text-align: center;
+    color: #6c757d;
+    margin-top: .5rem;
+    font-size: clamp(1.2rem, 2.6vh, 2rem);
+}
+
+/* Tarjetas base */
+.action-card[b-9xxrvzs06b], .asset-card[b-9xxrvzs06b], .state-card[b-9xxrvzs06b] {
+    min-height: 24vh;
+    border-width: 2px;
+    transition: transform .08s, box-shadow .08s;
+    cursor: pointer;
+}
+
+    .action-card:active[b-9xxrvzs06b], .asset-card:active[b-9xxrvzs06b], .state-card:active[b-9xxrvzs06b] {
+        transform: scale(0.99);
+    }
+
+    .action-card .card-body[b-9xxrvzs06b], .asset-card .card-body[b-9xxrvzs06b], .state-card .card-body[b-9xxrvzs06b] {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+    }
+
+.selected[b-9xxrvzs06b] {
+    background: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+
+.progress-bar[b-9xxrvzs06b] {
+    transition: width .3s linear;
+}
+
+/* Estados visuales asset */
+.asset-card.asset-warning[b-9xxrvzs06b] {
+    background: #ffc107;
+    color: #212529;
+    border-color: #ffc107;
+}
+
+.asset-card.selected[b-9xxrvzs06b] {
+    box-shadow: 0 0 0 4px rgba(0,123,255,.35);
+}
+
+    .asset-card.selected:not(.asset-defectuoso):not(.asset-warning)[b-9xxrvzs06b] {
+        background: #007bff;
+        color: #fff;
+        border-color: #007bff;
+    }
+
+
+/* PIN */
+.pin-dots[b-9xxrvzs06b] {
+    letter-spacing: .35rem;
+    font-size: 2rem;
+    user-select: none;
+}
+
+    .pin-dots.fixed[b-9xxrvzs06b] {
+        min-height: 2.8rem;
+        font-family: ui-monospace, Menlo, Consolas, "SF Mono", monospace;
+    }
+
+/* Keypad en grilla 3x4 */
+.keypad-grid[b-9xxrvzs06b] {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(110px, 1fr));
+    gap: 14px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 520px;
+}
+
+    .keypad-grid .key-btn[b-9xxrvzs06b] {
+        width: 100%;
+        height: 96px;
+        font-size: 2rem;
+        line-height: 1;
+        border-width: 2px;
+        transition: transform .08s;
+    }
+
+        .keypad-grid .key-btn:active[b-9xxrvzs06b] {
+            transform: scale(.98);
+        }
+
+/* Select layout */
+.select-layout[b-9xxrvzs06b] {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+
+.select-hero[b-9xxrvzs06b] {
+    height: 46vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+    .select-hero.blank[b-9xxrvzs06b] {
+        background-image: none !important;
+        background-color: transparent;
+    }
+
+    .select-hero.image[b-9xxrvzs06b] {
+        background-image: url("/img/1-rfid-hand.png");
+    }
+
+/* Mensajes grandes */
+.select-message[b-9xxrvzs06b] {
+    text-align: center;
+    color: #6c757d;
+    margin-top: 1rem;
+    min-height: 3.2rem;
+    line-height: 1.2;
+    font-weight: 700;
+    font-size: clamp(2.2rem, 6.8vh, 4.4rem);
+}
+
+.select-bottom[b-9xxrvzs06b] {
+    text-align: center;
+}
+
+    .select-bottom h6[b-9xxrvzs06b] {
+        color: #6c757d;
+        margin-bottom: 1.1rem;
+        font-weight: 700;
+        font-size: clamp(1.8rem, 5.2vh, 3.2rem);
+    }
+
+/* Botonera grande reutilizable */
+.select-actions[b-9xxrvzs06b] {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: clamp(200px, 28vw, 320px);
+    padding-bottom: 2vh;
+}
+
+.option-btn[b-9xxrvzs06b] {
+    min-width: clamp(220px, 36vw, 320px);
+    padding: 1.2rem 2.2rem;
+    font-size: clamp(1.6rem, 4.2vh, 2.4rem);
+    transition: transform .08s, box-shadow .08s;
+}
+
+    .option-btn:active[b-9xxrvzs06b] {
+        transform: scale(0.98);
+    }
+
+    .option-btn.is-selected[b-9xxrvzs06b] {
+        box-shadow: 0 0 0 6px rgba(0,123,255,.35);
+        font-weight: 800;
+    }
+
+/* --- ChooseAsset: scroll list y tipografías --- */
+.scroll-card[b-9xxrvzs06b] {
+    flex: 1 1 auto;
+    min-height: 0;
+}
+
+    .scroll-card .card-body[b-9xxrvzs06b] {
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+
+.asset-card.compact[b-9xxrvzs06b] {
+    min-height: 16vh;
+}
+
+    .asset-card.compact .card-body[b-9xxrvzs06b] {
+        padding: 1.2rem 1.4rem;
+        display: block;
+    }
+
+.asset-name[b-9xxrvzs06b] {
+    font-weight: 800;
+    line-height: 1.15;
+    font-size: clamp(1.6rem, 4.6vh, 2.8rem);
+    text-align: left;
+}
+
+.asset-meta[b-9xxrvzs06b] {
+    margin-top: .35rem;
+    font-size: clamp(1.2rem, 3.2vh, 1.9rem);
+    text-align: left;
+}
+
+/* Rojo suave por defecto; fuerte al seleccionar */
+.asset-card.asset-defectuoso[b-9xxrvzs06b] {
+    background: #f8d7da;
+    color: #842029;
+    border-color: #f5c2c7;
+}
+
+.asset-card.selected.asset-defectuoso[b-9xxrvzs06b] {
+    background: #dc3545;
+    color: #fff;
+    border-color: #dc3545;
+}
+
+.oos-screen[b-9xxrvzs06b] {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background: #ffe08a; /* amarillo suave */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.oos-content[b-9xxrvzs06b] {
+    text-align: center;
+    padding: 2rem;
+}
+
+.oos-icon[b-9xxrvzs06b] {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+}
+
+.oos-title[b-9xxrvzs06b] {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.oos-code[b-9xxrvzs06b] {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.hidden-admin-trigger[b-9xxrvzs06b] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 12vh;
+    height: 12vh;
+    background: transparent;
+    border: 0;
+    opacity: 0;
+    z-index: 100;
+    pointer-events: auto;
+}
+
+
+.puertas-screen .puertas-list[b-9xxrvzs06b] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.puerta-chip[b-9xxrvzs06b] {
     padding: 0.4rem 0.8rem;
     border-radius: 999px;
     border: 1px solid rgba(0, 0, 0, 0.2);
