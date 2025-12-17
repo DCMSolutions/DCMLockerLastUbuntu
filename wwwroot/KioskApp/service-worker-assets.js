@@ -561,7 +561,7 @@
       "url": "KioskApp\/_framework\/DCMLocker.Shared.dll"
     },
     {
-      "hash": "sha256-NAioYDw3B9qdHrZgaCpElI0s\/wrLzJzNvaY8EzYCnLk=",
+      "hash": "sha256-3suI33JOKd0OGEepKofU0N0ltcCqcbQXB8IhXIZWO10=",
       "url": "KioskApp\/_framework\/DCMLocker.Kiosk.dll"
     },
     {
@@ -813,7 +813,7 @@
       "url": "KioskApp\/_framework\/System.Private.CoreLib.dll"
     },
     {
-      "hash": "sha256-xipBwxoCdDaUPr6wmrBTLLwQezqL4fUoVehLkBiZ\/uM=",
+      "hash": "sha256-wMIQ+DQMsBLdDJ9FpmQ+yvMz5BUS+DgxvLMt13hCtHI=",
       "url": "KioskApp\/_framework\/blazor.boot.json"
     },
     {
@@ -821,5 +821,5 @@
       "url": "KioskApp\/_framework\/blazor.webassembly.js"
     }
   ],
-  "version": "Au8aJuE0"
+  "version": "+V\/LHG+W"
 };
