@@ -573,11 +573,11 @@
       "url": "ClientApp\/_framework\/System.Security.Cryptography.Pkcs.dll"
     },
     {
-      "hash": "sha256-9udpL0jrLb\/jMMPbvNW4Kdwn\/fEzPiL1fv3skaiBvuA=",
+      "hash": "sha256-M7KOVuSWzZQeXZI7yjZfOZTgulNBgj\/2StPLA2BS5Fk=",
       "url": "ClientApp\/_framework\/DCMLocker.Shared.dll"
     },
     {
-      "hash": "sha256-LjoqFOGw12P1xAcqHcd9XU+FejbPrbJoNWCi+m\/uVRg=",
+      "hash": "sha256-HBLuQnTFfNV27EnazolOXFj3wJA0HWvcDhh+1e88s1w=",
       "url": "ClientApp\/_framework\/DCMLocker.Client.dll"
     },
     {
@@ -873,7 +873,7 @@
       "url": "ClientApp\/_framework\/System.Private.CoreLib.dll"
     },
     {
-      "hash": "sha256-TAQZGOpyyVRcgMEUc5NwjDox8MjOZEzVxAvL385x\/ZY=",
+      "hash": "sha256-v+FZiorj6JEnOg6NeUz9eaaO+T\/h3nSlpfUmXbqqzmA=",
       "url": "ClientApp\/_framework\/blazor.boot.json"
     },
     {
@@ -881,5 +881,5 @@
       "url": "ClientApp\/_framework\/blazor.webassembly.js"
     }
   ],
-  "version": "X\/SojF2v"
+  "version": "8YYY5KYn"
 };
