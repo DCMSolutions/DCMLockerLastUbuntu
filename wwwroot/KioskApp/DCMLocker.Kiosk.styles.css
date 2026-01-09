@@ -21,6 +21,43 @@
     min-height: 100vh;
 }
 
+.countdown-wrap[b-09bnahnav3] {
+    width: min(520px, 90vw);
+    margin: 0 auto;
+}
+
+.countdown-bar[b-09bnahnav3] {
+    height: 10px;
+    border-radius: 999px;
+    overflow: hidden;
+    background: rgba(0,0,0,.08);
+}
+
+.countdown-bar-fill[b-09bnahnav3] {
+    display: block;
+    height: 100%;
+    width: 100%;
+    transform-origin: left;
+    animation: countdownShrink-b-09bnahnav3 var(--duration) linear forwards;
+    background: rgba(13,110,253,.85);
+}
+
+@keyframes countdownShrink-b-09bnahnav3 {
+    from {
+        transform: scaleX(1);
+    }
+
+    to {
+        transform: scaleX(0);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .countdown-bar-fill[b-09bnahnav3] {
+        animation: none;
+    }
+}
+
 /* Botón "Cancelar" unificado (discreto) */
 .btn-cancel[b-09bnahnav3] {
     background: transparent;
